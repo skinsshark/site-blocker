@@ -1,0 +1,21 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #CFD5F9;
+  color: #333;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+
+}
+
+html::before {
+  content: 'stop';
+}
+
+body {
+  display: none !important;
+}
