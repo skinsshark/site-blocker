@@ -6,14 +6,15 @@
 html {
   background-color: #CFD5F9;
   color: #333;
-  font-size: 30px;
+  font-weight: bold;
   padding: 30px;
   text-align: center;
-
+  margin-top: 50px;
 }
 
 html::before {
-  content: 'stop';
+  content: '!! Stop !!';
+  font-size: 30px;
 }
 
 body {

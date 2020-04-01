@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.facebook.com/*"
+        "https://www.facebook.com/*",
+	"https://www.netflix.com/*"
       ],
       "css": [
         "css/style.css"
