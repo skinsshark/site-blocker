@@ -5,7 +5,7 @@ chrome extension to block sites
 
 1. save folder
 2. go to `chrome://extensions`
-3. check `Developer mode`
-4. click `Load unpacked extension...`
+3. toggle `Developer mode`
+4. click `Load unpacked`
 5. upload folder
 6. extension should now be enabled!
