@@ -1,20 +1,23 @@
 * {
-  font-family: monospace;
   box-sizing: border-box;
+  color: #fff;
+  font-family: monospace;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
 }
 
 html {
-  background-color: #CFD5F9;
-  color: #333;
-  font-weight: bold;
-  padding: 30px;
-  text-align: center;
-  margin-top: 50px;
+  background: radial-gradient(68.34% 50% at 50% 50%, #2D9AFF 0%, #41DEE8 0%, #A22DFF 100%);
+  height: 100vh;
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 html::before {
   content: '!! Stop !!';
-  font-size: 30px;
 }
 
 body {
