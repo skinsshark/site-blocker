@@ -2,6 +2,8 @@
   "manifest_version": 2,
   "name": "site-blocker",
   "version": "1.0.0",
+  "default_locale": "en",
+  "description": "Site blocker Chrome extension",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -11,7 +13,7 @@
     {
       "matches": [
         "https://www.facebook.com/*",
-	"https://www.netflix.com/*"
+        "https://www.netflix.com/*"
       ],
       "css": [
         "css/style.css"
