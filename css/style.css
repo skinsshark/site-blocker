@@ -17,7 +17,7 @@ html {
 }
 
 html::before {
-  content: '!! Stop !!';
+  content: '!! Stop, You are not able to visit this betting site at this moment. !!';
 }
 
 body {
